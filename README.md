@@ -56,29 +56,7 @@ This Android application fetches data from a remote JSON endpoint, processes it 
 - **Robolectric** - Unit tests for Android
 
 ## 🏗 Project Structure
-app/
-├── data/
-│   ├── api/
-│   │   ├── FetchApi.kt           # API interface for Fetch endpoints
-│   │   └── NetworkModule.kt      # Retrofit and network configuration
-│   ├── model/
-│   │   ├── ItemDto.kt           # Data transfer object for API response
-│   │   └── ItemEntity.kt        # Database entity
-│   └── repository/
-│       └── ItemRepository.kt    # Repository implementation
-├── domain/
-│   ├── model/
-│   │   └── Item.kt             # Domain model
-│   └── usecase/
-│       ├── GetItemsUseCase.kt  # Business logic for fetching items
-│       └── SortItemsUseCase.kt # Business logic for sorting items
-├── presentation/
-│   ├── MainActivity.kt         # Single activity
-│   └── items/
-│       ├── ItemsScreen.kt      # Composable UI
-│       ├── ItemsState.kt       # UI state
-│       ├── ItemsIntent.kt      # User actions
-│       └── ItemsViewModel.kt   # View model
-└── di/
-    └── AppModule.kt           # Dependency injection setup
 
+<p align="center">
+  <img src="assets/project_structure.png" alt="Project Structure" width="300">
+</p>
