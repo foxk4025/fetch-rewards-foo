@@ -58,5 +58,5 @@ This Android application fetches data from a remote JSON endpoint, processes it 
 ## 🏗 Project Structure
 
 <p align="center">
-  <img src="assets/project_structure.png" alt="Project Structure" width="300">
+  <img src="project_structure.png" alt="Project Structure" width="400">
 </p>
